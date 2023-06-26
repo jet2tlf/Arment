@@ -1,0 +1,15 @@
+class Math
+    fun Math(int, int2)
+        var this.int = int
+        var this.int2 = int2
+    end
+    fun Plus()
+        return this.int + this.int2
+    end
+end
+
+var opt = input_int()
+var opt2 = input_int()
+
+var a = Math(opt, opt2)
+print(a.Plus())
