@@ -1,6 +1,6 @@
 # IMPORTS
 
-from string import *
+from strings_with_arrows import *
 
 import string
 import os

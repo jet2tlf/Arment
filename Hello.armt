@@ -1,15 +1,15 @@
 class Math
-    fun Math(int, int2)
-        var this.int = int
-        var this.int2 = int2
+    fun Math(num1, num2)
+        var this.num1 = num1
+        var this.num2 = num2
     end
-    fun Plus()
-        return this.int + this.int2
+
+    fun Sum()
+        return this.num1 + this.num2
     end
 end
 
-var opt = input_int()
-var opt2 = input_int()
-
-var a = Math(opt, opt2)
-print(a.Plus())
+var number1 = input_int("Primeiro Numero: ")
+var number2 = input_int("Segundo Numero: ")
+var a = Math(number1, number2)
+print(a.Sum())
